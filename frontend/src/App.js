@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { Html5Qrcode,Html5QrcodeSupportedFormats } from "html5-qrcode";
 import QRCode from "qrcode";
 
-const API = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+const API = "https://project-backend-wd51.onrender.com";
 
 // ---------- helpers ----------
 const ROMAN = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"];
